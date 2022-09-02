@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js"
+		"start": "echo nope",
+		"bot": "node app.js"
 	},
 	"author": "IsCoffeeTho#0001",
 	"license": "ISC",
