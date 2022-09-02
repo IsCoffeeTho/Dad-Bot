@@ -4,7 +4,6 @@ var botauthor = {
 };
 
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
-const token = require("./token.json");
 const cmds = require("./commands.js");
 const cc = require("./concolors.js")
 const bot = new Client({
@@ -76,4 +75,4 @@ bot.on("messageCreate", async (message) => {
 	}
 });
 
-bot.login(token.token);
+bot.login(process.env['token']);
