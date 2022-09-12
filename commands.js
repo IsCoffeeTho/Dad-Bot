@@ -25,8 +25,8 @@ exports.commands =
 		desc:`Don't tell your mom but, my advice is WAAYYYY better.`,
 		run:(msg) =>
 		{
-			var randselect = Math.floor(Math.random()*adviceList.dadadvices.length);
-			return (adviceList.dadadvices[randselect]);
+			var randselect = Math.floor(Math.random()*adviceList.length);
+			return (adviceList[randselect]);
 		}
 	}
 };
