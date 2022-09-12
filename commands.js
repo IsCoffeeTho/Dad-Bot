@@ -7,7 +7,7 @@ exports.commands =
 	{
 		syntax: `joke`,
 		shortdesc: `Spits out a dad joke.`,
-		desc: `I say one of my amazing **Certified Hood Classic** Dad jokes tm dad jokes ${jokeList.length} jokes currently available)`,
+		desc: `I say one of my amazing **Certified Hood Classic** Dad jokes tm dad jokes (${jokeList.length} jokes currently available).`,
 		run: (msg) =>
 		{
 			var string = "";
@@ -21,8 +21,8 @@ exports.commands =
 	advice:
 	{
 		syntax:`advice`,
-		shortdesc:`fuck you`,
-		desc:`fuck you`,
+		shortdesc:`I give ya life advice.`,
+		desc:`Don't tell your mom but, my advice is WAAYYYY better.`,
 		run:(msg) =>
 		{
 			var randselect = Math.floor(Math.random()*adviceList.dadadvices.length);
